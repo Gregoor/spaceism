@@ -344,6 +344,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "bevy_contrib_bobox"
+version = "0.3.0"
+source = "git+https://github.com/Bobox214/bevy_contrib_bobox?tag=0.3.0#b5e2bccfb7b086d576ac593abea9188a98543742"
+dependencies = [
+ "bevy",
+ "bevy_rapier2d",
+]
+
+[[package]]
 name = "bevy_core"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3312,6 +3321,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "spaceism"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy_contrib_bobox",
+ "bevy_prototype_lyon",
+ "bevy_rapier2d",
+ "rapier2d",
+]
+
+[[package]]
 name = "spin"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3467,16 +3487,6 @@ dependencies = [
  "libc",
  "redox_syscall",
  "xattr",
-]
-
-[[package]]
-name = "tense"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy_prototype_lyon",
- "bevy_rapier2d",
- "rapier2d",
 ]
 
 [[package]]
